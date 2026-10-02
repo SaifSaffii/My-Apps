@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Age Converter</string>
+    <string name="tab_units">Time Units</string>
+    <string name="tab_pets">Pet Age</string>
+    <string name="tab_planets">Planets</string>
+    <string name="tab_milestones">Milestones</string>
+    <string name="tab_comparison">Compare</string>
+    <string name="select_birthdate">Select Date of Birth</string>
+    <string name="quick_convert">Quick Age Input</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="delete">Delete</string>
+    <string name="reset">Reset</string>
+</resources>

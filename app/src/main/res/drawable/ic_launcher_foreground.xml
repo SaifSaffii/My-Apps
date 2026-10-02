@@ -1,0 +1,80 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer clock / orbit ring -->
+    <path
+        android:pathData="M54,23 A31,31 0 1,1 53.9,23"
+        android:strokeWidth="2.5"
+        android:strokeColor="#60FCD34D"
+        android:fillColor="#00000000" />
+    
+    <!-- Hourglass top frame plate -->
+    <path
+        android:pathData="M34,31 L74,31 A3,3 0 0,1 77,34 L77,36 A3,3 0 0,1 74,39 L34,39 A3,3 0 0,1 31,36 L31,34 A3,3 0 0,1 34,31 Z"
+        android:fillColor="#FBBF24" />
+        
+    <!-- Hourglass bottom frame plate -->
+    <path
+        android:pathData="M34,69 L74,69 A3,3 0 0,1 77,72 L77,74 A3,3 0 0,1 74,77 L34,77 A3,3 0 0,1 31,74 L31,72 A3,3 0 0,1 34,69 Z"
+        android:fillColor="#FBBF24" />
+
+    <!-- Glass chamber bulb (smooth curves to center neck) -->
+    <path
+        android:pathData="M37,39 C37,50 49,52 51,54 C49,56 37,58 37,69 L71,69 C71,58 59,56 57,54 C59,52 71,50 71,39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="37"
+                android:startY="39"
+                android:endX="71"
+                android:endY="69"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#40FFFFFF" />
+                <item android:offset="0.5" android:color="#20FFFFFF" />
+                <item android:offset="1.0" android:color="#50FFFFFF" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="37"
+                android:startY="39"
+                android:endX="71"
+                android:endY="69"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E0FFFFFF" />
+                <item android:offset="1.0" android:color="#80FDE047" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeWidth">
+            <size android:value="2" />
+        </aapt:attr>
+    </path>
+
+    <!-- Top Sand pyramid -->
+    <path
+        android:pathData="M41,41 C43,49 50,51 54,53 C58,51 65,49 67,41 Z"
+        android:fillColor="#F59E0B" />
+
+    <!-- Sand trickle stream -->
+    <path
+        android:pathData="M53.5,53 L54.5,53 L54.5,61 L53.5,61 Z"
+        android:fillColor="#FDE68A" />
+
+    <!-- Bottom Sand mound -->
+    <path
+        android:pathData="M41,69 C44,63 50,60 54,60 C58,60 64,63 67,69 Z"
+        android:fillColor="#FBBF24" />
+
+    <!-- Sparkle 1 (top right) -->
+    <path
+        android:pathData="M78,27 C78,28.5 79.5,30 81,30 C79.5,30 78,31.5 78,33 C78,31.5 76.5,30 75,30 C76.5,30 78,28.5 78,27 Z"
+        android:fillColor="#FDE68A" />
+        
+    <!-- Sparkle 2 (bottom left) -->
+    <path
+        android:pathData="M27,67 C27,68.5 28.5,70 30,70 C28.5,70 27,71.5 27,73 C27,71.5 25.5,70 24,70 C25.5,70 27,68.5 27,67 Z"
+        android:fillColor="#FDE68A" />
+</vector>
